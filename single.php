@@ -19,11 +19,9 @@
 		
 		<p class="bod"><?php the_content(); ?></p>
 
-		<a href="<?php the_field("url"); ?>" class="button-portfolio">See live</a>
+		<a href="<?php the_field("url"); ?>" target="_blank" class="button-portfolio">See live</a>
 
-		<a class="button-portfolio" href="http://twitter.com/share?text=( <?php the_title(); ?> )Björn Henriksson Portfolio&url=<?php the_permalink(); ?>"><i class="fa fa-twitter"></i></a>
-
-
+		<a class="button-portfolio no-margin" href="http://twitter.com/share?text=( <?php the_title(); ?> )Björn Henriksson Portfolio&url=<?php the_permalink(); ?>"><i class="fa fa-twitter"></i></a>
 
 		</section>
 

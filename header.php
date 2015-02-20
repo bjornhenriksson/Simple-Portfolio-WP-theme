@@ -5,13 +5,14 @@
 	<meta name="viewport" content="initial-scale = 1.0, user-scalable = no">
 	<meta property="og:url" content="http://bjornhenriksson.se/" /> 
 	<meta property="og:title" content="Interaction is everything" />
-	<meta property="og:image"  content="http://bjornhenriksson.se/img/guru-case-happy.jpg" /> 
+	<meta property="og:image"  content="http://bjornhenriksson.se/img/portf.png" /> 
 	<meta property="og:description" content="I'm a tech-nerd that loves Minecraft." />
 	<title>Portfolio Björn Henriksson</title>
 	<meta name="description" content="I'm a tech-nerd that loves Minecraft.">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/normalize.min.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/font-awesome/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,400' rel='stylesheet' type='text/css'>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/functions.js"></script>
 	<script src="//use.typekit.net/rfq1osc.js"></script>

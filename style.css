@@ -1,5 +1,5 @@
 /*
-	Theme Name: Portfolio Default V2
+	Theme Name: Portfolio Default V2.2
 */
 
 html, body {
@@ -8,10 +8,10 @@ html, body {
 }
 
 body {
-  font-family: "proxima-nova";
-  overflow-x: hidden;
-  font-size: 100%;
-  margin: 0;
+	font-family: 'Open Sans', sans-serif;
+ 	overflow-x: hidden;
+  	font-size: 100%;
+  	margin: 0;
 }
 
 h1 {
@@ -68,6 +68,9 @@ a {
     color: #64e7c0;
 }
 
+.button-portfolio.no-margin {
+	margin: 10px 0px 0 10px;
+}
 
 .button-flip {
 	background: white;
@@ -107,7 +110,7 @@ a {
 }
 
 .title {
-	background: url(img/cover-img.jpg);
+	background: url(img/cover-img-wide-v2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center right;
@@ -181,13 +184,12 @@ a {
 
 .columns {
 	-webkit-column-count: 3;
-	-webkit-column-gap: 20px;
+	-webkit-column-gap: 40px;
 	-webkit-column-fill: auto;
 	-moz-column-count: 3;
-	-moz-column-gap: 20px;
-	-moz-column-fill: auto;
+	-moz-column-gap: 40px;
 	column-count: 3;
-	column-gap: 20px;
+	column-gap: 40px;
 	column-fill: auto;
 }
 
@@ -197,7 +199,7 @@ a {
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
 	border: 1px solid #eee;
-	margin: 0 0 20px 0;
+	margin: 0 0 40px 0;
 	position: relative;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -207,6 +209,10 @@ a {
 	-webkit-column-break-inside: avoid;
 	-moz-column-break-inside: avoid;
 	column-break-inside: avoid;
+}
+
+.fill a:hover {
+	color: black;
 }
 
 .fill .img {
@@ -231,6 +237,9 @@ a {
 	padding: 50px 20px 50px 15%;
 	border-bottom: 1px solid #eee;
 	margin-bottom: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;  
 }
 
 .explain h2, p {
@@ -418,7 +427,23 @@ footer .mail {
     font-family: 'socicon' !important;
 }
 
+@media screen and (max-width: 60em) {
+
+	.columns {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+
+}
+
 @media screen and (max-width: 50em) {
+
+	body, html {
+		overflow-x: hidden;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+	}
 
 	h1 {
 		letter-spacing: -0.05em;
@@ -433,7 +458,8 @@ footer .mail {
 	}
 
 	.title section {
-		width: 100%;
+		background: rgba(250,250,250,0.8);
+		width: 90%;
 		padding: 50px 5% 50px 5%;
 	}
 
@@ -448,11 +474,34 @@ footer .mail {
 	}
 
 	.item {
+		width: 100%;
 		display: block;
-		padding: 10px 0 10px 0;
+		padding: 10px 0 10px 20px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;  
+	}
+
+	.item.music {
+		background: #64e7c0;
+		color: white;
+		font-weight: 700;
+	} 
+
+	.item.code {
+		background: #3ebbef; 
+		color: white;
+		font-weight: 700;
+	}
+
+	.item.read {
+		background: #ef3e89;
+		color: white;
+		font-weight: 700;
 	}
 
 	.explain {
+		width: 100%;
 		padding: 50px 5% 50px 5%;
 	}
 
@@ -476,6 +525,24 @@ footer .mail {
 
 @media screen and (max-width: 40em) {
 
+	.button-portfolio {
+		margin: 10px 0px 0 0;
+		display: none;
+	}
+
+	.title p {
+		border-left: 0;
+		padding: 0 0 0 0;
+	}
+
+	.title p.bod {
+		border-left: 0;
+		padding: 0 0 0 0;
+	}
+
+	.title h1 {
+		padding-left: 0px;
+	}
 
 	.columns {
 		-webkit-column-count: 1;

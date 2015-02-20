@@ -7,10 +7,10 @@
 	<section>
 
 	<h1>Hi, I'M BJÖRN</h1>
-	<p>I'm a web developer that captures emotions to:<br /> <span>create memorable web experiences.</span>
+	<p>I capture emotions to:<br /> <span>create memorable web experiences.</span>
 	</p>
 
-	<a href="#feed" class="button-portfolio">Contact me</a>
+	<a href="#contact" class="button-portfolio">Contact me</a>
 
 	</section>
 

@@ -1,6 +1,6 @@
 			<footer id="contact">
 
-				<img src="<?php echo get_template_directory_uri(); ?>/img/me.png" class="me" alt="me cozy" /><br /><br />
+				<a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/me.png" class="me" alt="me cozy" /></a><br /><br />
 
 				<p class="tech-nerd">I'm a tech-nerd that loves Minecraft.
 				I overconsume energy drinks and mozarella. I create music over at <a href="https://soundcloud.com/beatificus" target="_blank">Soundcloud</a> and digital art on <a href="http://bjornfoto.deviantart.com/" target="_blank">Deviantart</a>.
