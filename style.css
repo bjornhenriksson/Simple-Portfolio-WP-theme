@@ -26,7 +26,7 @@ h2 {
 	font-family: "din-condensed-web";
 	text-transform: uppercase;
 	font-size: 2.5em;
-	color: #aaa;
+	color: #4b4b4b;
 }
 
 h3 {
@@ -98,6 +98,39 @@ a {
     color: white;
 }
 
+.item {
+	-webkit-animation: animation 1000ms linear both;
+ 	animation: animation 1000ms linear both;
+} 
+
+/* Generated with Bounce.js. Edit at http://goo.gl/iuK5mx */
+
+@-webkit-keyframes animation { 
+  0% { -webkit-transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  3.2% { -webkit-transform: matrix3d(0.435, 0, 0, 0, 0, 0.435, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.435, 0, 0, 0, 0, 0.435, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  6.41% { -webkit-transform: matrix3d(0.701, 0, 0, 0, 0, 0.701, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.701, 0, 0, 0, 0, 0.701, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  9.61% { -webkit-transform: matrix3d(0.855, 0, 0, 0, 0, 0.855, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.855, 0, 0, 0, 0, 0.855, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  12.81% { -webkit-transform: matrix3d(0.938, 0, 0, 0, 0, 0.938, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.938, 0, 0, 0, 0, 0.938, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  19.22% { -webkit-transform: matrix3d(0.998, 0, 0, 0, 0, 0.998, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.998, 0, 0, 0, 0, 0.998, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  25.63% { -webkit-transform: matrix3d(1.006, 0, 0, 0, 0, 1.006, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.006, 0, 0, 0, 0, 1.006, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  65.67% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+}
+
+@keyframes animation { 
+  0% { -webkit-transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  3.2% { -webkit-transform: matrix3d(0.435, 0, 0, 0, 0, 0.435, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.435, 0, 0, 0, 0, 0.435, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  6.41% { -webkit-transform: matrix3d(0.701, 0, 0, 0, 0, 0.701, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.701, 0, 0, 0, 0, 0.701, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  9.61% { -webkit-transform: matrix3d(0.855, 0, 0, 0, 0, 0.855, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.855, 0, 0, 0, 0, 0.855, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  12.81% { -webkit-transform: matrix3d(0.938, 0, 0, 0, 0, 0.938, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.938, 0, 0, 0, 0, 0.938, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  19.22% { -webkit-transform: matrix3d(0.998, 0, 0, 0, 0, 0.998, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(0.998, 0, 0, 0, 0, 0.998, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  25.63% { -webkit-transform: matrix3d(1.006, 0, 0, 0, 0, 1.006, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.006, 0, 0, 0, 0, 1.006, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  65.67% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  100% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+}
+
+
+
 .content {
 	width: 100%;
 	height: 100%;
@@ -160,7 +193,7 @@ a {
 .cont {
 	width: 70%;
 	margin: 0 auto;
-	padding: 20px 0 20px 0;
+	padding: 20px 0 0 0;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;  
@@ -199,6 +232,7 @@ a {
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
 	border: 1px solid #eee;
+	border-bottom: 1px solid #ddd;
 	margin: 0 0 40px 0;
 	position: relative;
 	-webkit-box-sizing: border-box;
@@ -231,11 +265,11 @@ a {
 
 
 .explain {
-	background: #f5f5f5;
+	background: #eee;
 	width: 100%;
 	display: inline-block;
 	padding: 50px 20px 50px 15%;
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid #ddd;
 	margin-bottom: 20px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -257,16 +291,19 @@ a {
 }
 
 .item {
+	background: white;
 	color: #aaa;
 	display: inline-block;
 	font-size: 0.9em;
 	margin-right: 10px;
 	cursor: pointer;
 	margin-top: 0;
+	padding: 10px;
+	border-radius: 5px;
 }
 
 .item-text {
-	color: #aaa;
+	color: #999;
 	display: inline-block;
 	font-size: 0.9em;
 	margin-right: 10px;
@@ -290,15 +327,15 @@ a {
 	margin-right: 10px;
 }
 
-.item.music {
+.item.music i {
 	color: #64e7c0;
 } 
 
-.item.code {
+.item.code i {
 	color: #3ebbef; 
 }
 
-.item.read {
+.item.read i {
 	color: #ef3e89;
 }
 
@@ -349,6 +386,7 @@ a {
 	color: #666;
 	padding: 0.5em 1em 0.5em 1em;
 	margin-right: 5px;
+	display: inline-block;
 }
 
 .view:hover {
@@ -373,7 +411,7 @@ footer {
 
 footer p {
 	font-size: 1em;
-	color: #4b4b4b;
+	color: #666;
 }
 
 footer p.tech-nerd {
@@ -383,7 +421,7 @@ footer p.tech-nerd {
 
 footer .socicon {
 	font-size: 1.2em;
-	color: #f03852;
+	color: #64e7c0;
 	display: inline-block;
 	margin-right: 10px;
 }
@@ -480,21 +518,22 @@ footer .mail {
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;  
+		border-radius: 0;
 	}
 
-	.item.music {
+	.item.music, .item.music i {
 		background: #64e7c0;
 		color: white;
 		font-weight: 700;
 	} 
 
-	.item.code {
+	.item.code, .item.code i {
 		background: #3ebbef; 
 		color: white;
 		font-weight: 700;
 	}
 
-	.item.read {
+	.item.read, .item.read i {
 		background: #ef3e89;
 		color: white;
 		font-weight: 700;

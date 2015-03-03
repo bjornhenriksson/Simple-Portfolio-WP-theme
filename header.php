@@ -5,7 +5,7 @@
 	<meta name="viewport" content="initial-scale = 1.0, user-scalable = no">
 	<meta property="og:url" content="http://bjornhenriksson.se/" /> 
 	<meta property="og:title" content="Interaction is everything" />
-	<meta property="og:image"  content="http://bjornhenriksson.se/img/portf.png" /> 
+	<meta property="og:image"  content="http://bjornhenriksson.se/img/bottles.png" /> 
 	<meta property="og:description" content="I'm a tech-nerd that loves Minecraft." />
 	<title>Portfolio Björn Henriksson</title>
 	<meta name="description" content="I'm a tech-nerd that loves Minecraft.">
