@@ -546,7 +546,7 @@ footer .mail {
 	.title section.showcase.flip {
 		position: relative;
 		width: 100%;
-		padding: 50px 0 50px 0;
+		padding: 0 0 0 0;
 		overflow: hidden;
 	}
 
@@ -562,6 +562,12 @@ footer .mail {
 	.item-text {
 		padding: 0 0 10px 0;
 		display: block;
+	}
+
+	.stretch {
+		-webkit-filter: none;
+		opacity: 1;
+		transform: scale(1.05,1.05);
 	}
 
 	.item {
